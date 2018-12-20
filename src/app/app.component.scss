@@ -1,0 +1,16 @@
+a {
+	height: 40px;
+	width: 60px;
+	padding: 15px;
+}
+:host {
+  display: block;  
+}
+
+section {
+  margin-top: 100px;
+}
+
+.router-outlet {
+	background-color: red;
+}
