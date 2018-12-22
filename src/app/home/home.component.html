@@ -1,5 +1,4 @@
- <button (click)="toggle()">Toggle Open/Closed</button>
-
-<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
-  <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+<h1 class="animated fadeInDown">Example</h1>
+<div [@listAnimation]="array.length">
+  <p *ngFor="let item of array" class="">{{ item }}</p>
 </div>

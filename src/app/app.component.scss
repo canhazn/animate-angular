@@ -1,16 +1,10 @@
 a {
+	display: inline-block;
 	height: 40px;
 	width: 60px;
-	padding: 15px;
+	margin: 15px;
 }
 :host {
   display: block;  
 }
 
-section {
-  margin-top: 100px;
-}
-
-.router-outlet {
-	background-color: red;
-}
